@@ -1,7 +1,7 @@
 {
   "name": "aletro",
   "displayName": "Aletro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "B2B prospecting inside Claude: find companies showing real buying signals, check them against your ideal customer, research who decides, draft outreach, and keep it all in a free Aletro pipeline. Every claim carries its source, date and confidence.",
   "author": {
     "name": "Dude Lemon",

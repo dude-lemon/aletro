@@ -12,7 +12,7 @@
       "name": "aletro",
       "source": "./",
       "description": "Find companies showing real buying signals, check them against your ideal customer, research who decides, draft outreach, and keep it all in a free Aletro pipeline.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": { "name": "Dude Lemon", "url": "https://dudelemon.com" },
       "homepage": "https://dudelemon.com/aletro",
       "license": "MIT",
