@@ -15,7 +15,7 @@ Aletro never sends anything. You write the drafts, save them with `save_draft`, 
    - **Step 1**: open with the specific signal (the new site, the job post, the deadline), link it to the problem the product solves, and make one small ask.
    - **Step 2**, about four days later: a short follow-up adding one useful point, such as a relevant result or an idea for their situation.
    - **Step 3**, about a week later: a brief, polite close that leaves the door open.
-4. Save each step with `save_draft` (company, person, step, channel, subject, body).
+4. Save each step with `save_draft` (company, person, step, channel, subject, a few words on the `angle`, and the body). Use the company's brief (outreach angle, talking points, best buyer) when it has one.
 5. Show the drafts to the user. They can copy them from the chat or from the company's page in Aletro.
 
 ## Writing rules

@@ -13,6 +13,7 @@ You research the open web, check each company against the product's ideal custom
 2. `get_learnings` for that product. Apply every lesson to this run, and mention the ones that changed what you looked for.
 3. `list_known_domains`. Skip companies already saved unless the user asked to refresh them.
 4. Agree the scope in one line: region, how many companies (default 15), and any focus the user gave.
+5. `start_run` with that scope as the brief, and keep the `run_id` for every `save_company` in this search.
 
 ## Searching
 
@@ -20,7 +21,8 @@ Work signal first: look for the product's buying signals, then check whether the
 
 - Turn each buying signal into a few concrete searches for the region, for example job posts naming the role, news of a new site or funding, a new regulation's deadline, tenders, or reviews complaining about the problem.
 - Prefer primary sources: the company's own site, its careers page, official registries and tender portals, and reputable local or trade news.
-- Open the pages you cite. A claim goes into Aletro only if a page you read says it.
+- Open the pages you cite. A claim goes into Aletro only if a page you read says it, and then it is saved with `verified: true`. A claim you only saw in a search snippet is `verified: false`.
+- Give every signal a `signal_type`: hiring, expansion, funding, leadership, launch, tech_change, partnership, event, regulation, complaint or other.
 - When a source is a news site or a directory, the company is the one the article is about, never the publisher.
 
 ## Checking each company
@@ -37,7 +39,9 @@ Note risks you find (a recent contract with a competitor, layoffs, a hiring free
 ## Scoring and people
 
 - Score fit and intent with the `score-companies` guide.
-- Add the decision makers you can see on public pages (team page, press releases, conference speaker pages): name, title exactly as published, the page you found it on, and a public profile link if there is one. Never look for or record personal email addresses or phone numbers.
+- Add the decision makers you can see on public pages (team page, press releases, conference speaker pages): name, title exactly as published, the page you found it on, and a public profile link if there is one. Give each a `persona`: economic_buyer, department_owner, user or technical_evaluator. Never look for or record personal email addresses or phone numbers.
+- Write the `brief`: a one-line `headline`, the `likely_pain`, the `outreach_angle`, the `best_buyer`, the `approach`, three to five `talking_points`, and `what_could_be_wrong` (the honest case against it).
+- Add `platform` and `tech` when the site or job posts show the tools they use.
 
 ## Saving
 
@@ -47,9 +51,10 @@ Note risks you find (a recent contract with a competitor, layoffs, a hiring free
 
 ## Finishing
 
-1. Call `get_pipeline` so the list shows in the chat.
-2. Give a short summary: how many you checked, how many you saved, the three strongest with one line each on why now, and any pattern worth knowing.
-3. Offer next steps: research the top companies in depth (`research-company`) or draft outreach (`draft-outreach`).
+1. `finish_run` with how many companies you looked at, how many you saved, and why you turned the rest down, as reasons with counts (for example "No buying signal with a source", 12).
+2. Call `get_pipeline` so the list shows in the chat.
+3. Give a short summary: how many you checked, how many you saved, the three strongest with one line each on why now, and any pattern worth knowing.
+4. Offer next steps: research the top companies in depth (`research-company`) or draft outreach (`draft-outreach`).
 
 ## Keep in mind
 
