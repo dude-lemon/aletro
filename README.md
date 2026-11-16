@@ -1,6 +1,29 @@
+![Aletro](logo.png)
+
 # Aletro
 
-Aletro is free B2B prospecting that works inside Claude. Claude finds companies showing real buying signals for what you sell, checks each one against your ideal customer, maps who decides there, and drafts outreach. Aletro keeps it all in a pipeline you can open in Claude or at [aletro.dudelemon.cloud](https://aletro.dudelemon.cloud). Every claim carries its source, date and confidence, so you can see why a company made the list.
+Find B2B customers who are ready to buy, right inside Claude.
+
+Tell Aletro what you sell and who buys it, and Claude searches the web for companies showing buying signals, such as a new location, a hiring push, fresh funding or customers complaining about the problem you solve. Each company is scored against your ideal customer, with the source and date behind every reason it made the list. For the best fits, Claude finds the people who decide, writes a brief and drafts your first message.
+
+Your pipeline is saved in Aletro for free. Open it in any chat with Claude or at [aletro.dudelemon.cloud](https://aletro.dudelemon.cloud), where you can see the whole pipeline, sort and export it, and track each deal to won or lost.
+
+## What to ask Claude
+
+- "Set up Aletro for my product. We sell review management software to independent restaurants in the US."
+- "Find 15 companies that are ready to buy."
+- "Dig into the top one and tell me who decides there."
+- "Draft a first email and two follow-ups for that person."
+- "Show my pipeline."
+- "We lost the dental clinic, they already use an agency. Remember that for next time."
+
+## What you get for each company
+
+- A score for fit and a score for buying intent, held down when the proof is thin or old
+- The buying signals behind it, each with its source link, date and how sure Claude is
+- The people who decide, with their roles and public profile links
+- A brief on why now, what they likely need and what to say
+- Outreach drafts you can copy, edit and send yourself
 
 ## How it works
 

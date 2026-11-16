@@ -1,8 +1,8 @@
 {
   "name": "aletro",
   "displayName": "Aletro",
-  "version": "1.0.1",
-  "description": "B2B prospecting inside Claude: find companies showing real buying signals, check them against your ideal customer, research who decides, draft outreach, and keep it all in a free Aletro pipeline. Every claim carries its source, date and confidence.",
+  "version": "1.0.2",
+  "description": "Find B2B customers who are ready to buy, right inside Claude. Tell Aletro what you sell and who buys it, and Claude searches the web for companies showing buying signals, such as a new location, a hiring push, fresh funding or customers complaining about the problem you solve. Each company is scored against your ideal customer, with the source and date behind every reason it made the list. For the best fits, Claude finds the people who decide, writes a brief and drafts your first message. Your pipeline is saved in Aletro for free, so you can pick it up in any chat or at aletro.dudelemon.cloud. Tell Claude which deals you won or lost, and the next search learns from them.",
   "author": {
     "name": "Dude Lemon",
     "url": "https://dudelemon.com"
@@ -10,7 +10,14 @@
   "homepage": "https://dudelemon.com/aletro",
   "repository": "https://github.com/dude-lemon/aletro",
   "license": "MIT",
-  "keywords": ["sales", "prospecting", "lead generation", "buyer intent", "b2b"],
+  "keywords": [
+    "prospecting",
+    "lead generation",
+    "buying signals",
+    "account research",
+    "sales outreach",
+    "pipeline"
+  ],
   "icon": "./icon.png",
   "documentationUrl": "https://dudelemon.com/aletro",
   "supportUrl": "https://dudelemon.com/contact",
