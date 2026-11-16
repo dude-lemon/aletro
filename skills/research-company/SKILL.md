@@ -1,6 +1,6 @@
 ---
 name: research-company
-description: Research one saved company in depth: confirm its buying signals, add evidence and risks, and map the people who decide, then save it all to Aletro. Use when the user asks to dig into a company, build a dossier or account brief, or find who to contact there.
+description: "Research one saved company in depth: confirm its buying signals, add evidence and risks, and map the people who decide, then save it all to Aletro. Use when the user asks to dig into a company, build a dossier or account brief, or find who to contact there."
 ---
 
 # Research a company in depth

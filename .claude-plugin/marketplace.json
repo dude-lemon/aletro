@@ -12,7 +12,7 @@
       "name": "aletro",
       "source": "./",
       "description": "Find B2B customers who are ready to buy, right inside Claude. Tell Aletro what you sell and who buys it, and Claude searches the web for companies showing buying signals, such as a new location, a hiring push, fresh funding or customers complaining about the problem you solve. Each company is scored against your ideal customer, with the source and date behind every reason it made the list. For the best fits, Claude finds the people who decide, writes a brief and drafts your first message. Your pipeline is saved in Aletro for free, so you can pick it up in any chat or at aletro.dudelemon.cloud. Tell Claude which deals you won or lost, and the next search learns from them.",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "Dude Lemon LLC",
         "url": "https://dudelemon.com"

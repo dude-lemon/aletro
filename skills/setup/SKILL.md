@@ -29,7 +29,7 @@ Aletro keeps, for each product the user sells, who buys it and what shows a comp
    - **Signals that rule a company out**, such as already using a competitor.
    - **Why customers buy**, any proof points to quote, the competitors buyers compare it with, and how it is priced.
    - **Lookalikes**: three to five domains of their best customers, if they have some.
-4. Call `save_product` with the answers (pass `product_id` when updating).
+4. Call `save_product` with the answers (include `product_id` when updating).
 5. Read back a short summary and offer the next step: finding companies (the `find-buyers` skill).
 
 ## Notes
