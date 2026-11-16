@@ -1,0 +1,19 @@
+{
+  "name": "aletro",
+  "displayName": "Aletro",
+  "version": "1.0.0",
+  "description": "B2B prospecting inside Claude: find companies showing real buying signals, check them against your ideal customer, research who decides, draft outreach, and keep it all in a free Aletro pipeline. Every claim carries its source, date and confidence.",
+  "author": {
+    "name": "Dude Lemon",
+    "url": "https://dudelemon.com"
+  },
+  "homepage": "https://dudelemon.com/aletro",
+  "repository": "https://github.com/dude-lemon/aletro",
+  "license": "MIT",
+  "keywords": ["sales", "prospecting", "lead generation", "buyer intent", "b2b"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://dudelemon.com/aletro",
+  "supportUrl": "https://dudelemon.com/contact",
+  "privacyPolicyUrl": "https://dudelemon.com/privacy",
+  "termsOfServiceUrl": "https://dudelemon.com/terms"
+}

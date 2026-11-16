@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aletro": {
+      "type": "http",
+      "url": "https://aletro.dudelemon.cloud/mcp"
+    }
+  }
+}
